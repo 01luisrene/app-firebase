@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    {{!-- <link rel="icon" type="image/png" href="favicon.png"> --}}
+    <link type="text/css" rel="stylesheet" href="/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/foundation.min.css"/>
+  </head>
+  <body>
+  	<header class="row">
+  		<div class="large-12 columns">
+  			<h1>{{title}}</h1>
+  			<p>{{description}}</p>
+  		</div>
+  	</header>
+    <main class="row">
+	    {{{body}}}
+    </main>
+	 	<footer class="row">
+	 		<div class="columns">
+        <p>01luisrene &copy; 2016</p>  
+      </div>
+	 	</footer>
+    {{> scripts}}
+  </body>
+</html>

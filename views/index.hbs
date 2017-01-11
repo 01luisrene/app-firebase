@@ -1,0 +1,70 @@
+{{!< default}}
+<article class="column">
+
+<section id="metaUser" class="hide">
+	<span id="email"></span> <a href="#" id = "btnLogout" class="button alert">Logout</a>
+</section>
+
+<section id="formularioLoginRegistro" class="hide small-offset-0 medium-offset-2 large-offset-2 small-12 medium-8 large-8">
+	<h2>Formulario de login & registro</h2>
+	<input id="txtEmail" type="email" placeholder="Email">
+  <input id="txtPassword" type="password" placeholder="Contraseña">
+  <button id = "btnLogin" class="button">Login</button>
+  <button id = "btnSignUp" class="button success">Registrarse</button>
+</section>
+
+<hr>
+
+<section id="" class="small-offset-0 medium-offset-2 large-offset-2 small-12 medium-8 large-8">
+		<div class="row">
+			<label class="small-12 medium-6 large-6 columns">
+				Ingresa un titulo:
+				<input id="txtTituloRecorderis" type="text" placeholder="Titulo"/>
+			</label>
+			<label class="small-12 medium-6 large-6 columns">
+				Ingresa la fecha:
+				<input id="dateRecorderis" type="date"/>
+			</label>
+			<label class="small-12 medium-12 large-12 columns">
+				Ingresa una descripción:
+				<textarea id="txtaDescripcionRecorderis" placeholder="Descripción" rows="3"></textarea>
+			</label>
+		</div>
+	  <div class="row">
+		  <fieldset class="small-12 medium-6 large-6 columns">
+		    <legend>Publicar mensaje en:</legend>
+		    <input id="checkboxf" type="checkbox"><label for="checkboxf">Facebook</label>
+		    <input id="checkboxt" type="checkbox"><label for="checkboxt">Twitter</label>
+		  </fieldset>
+	  	<fieldset class="small-12 medium-6 large-6 columns">
+	  		<legend>Fecha de publicación:</legend>
+	  		<select>
+	  			<option value="default" selected>Selecciona el tiempo:</option>
+				  <option value="mes">Mes</option>
+				  <option value="anio">Año</option>
+				  <option value="custom">Personalizado</option>
+				</select>
+		    
+		    <input type="date"/>
+		  </fieldset>
+		  <label class="small-12 medium-6 large-6 columns">
+				Mensaje facebook:
+				<textarea placeholder="Facebook" rows="3"></textarea>
+			</label>
+			<label class="small-12 medium-6 large-6 columns">
+				Mensaje Twitter:
+				<textarea placeholder="Twitter" rows="3" maxlength="140"></textarea>
+			</label>
+	  </div>
+	  <!--Guardar y actualizar con el mismo botón-->
+	  <button id="btnEnviar" class="button">Guardar</button>
+
+	<div class="list-date">
+		<pre id="objeto"></pre>
+
+		<ul id="lista"></ul>
+	</div>
+</section>
+
+
+</article>

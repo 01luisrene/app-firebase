@@ -1,3 +1,3 @@
-# firebase
+# Firebase
 
-Mi primera app hecho en Firebase!
+Mi primera app hecho con Firebase!
